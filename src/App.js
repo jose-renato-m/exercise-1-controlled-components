@@ -19,6 +19,7 @@ class App extends Component {
 			type="text" 
 			placeholder="Say Something" 
 			value={this.state.value}
+			onChange={this.handleChange}
 			/>
           <p className="echo">Echo:</p>
           <p>This should mirror the text you typed into the input field.</p>
