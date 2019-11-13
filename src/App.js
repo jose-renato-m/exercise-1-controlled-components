@@ -26,7 +26,7 @@ class App extends Component {
 			onChange={this.handleChange}
 			/>
           <p className="echo">Echo:</p>
-          <p>This should mirror the text you typed into the input field.</p>
+          <p>{this.state.value}</p>
         </div>
       </div>
     );
